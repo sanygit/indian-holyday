@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="creating indian holiday">
+    <meta name="keyword"content="html html5 css css3 bootstrap sass JavaScript">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Indian Holiday</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800;900&display=swap" rel="stylesheet">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom Css File -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+      <!-- Navigation starts here -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid icons-nav">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <figure>
+                    <img src="img/logo-ihpl.png" alt="" width="50%">
+                    <figcaption class="fig">INDIAN HOLIDAY</figcaption>
+                </figure>
+            </a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-left">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa  fa-home"></i> Holiday by Themes <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="family.html" target="_blank">Family</a></li>
+                  <li><a href="#">Chardham</a></li>
+                  <li><a href="#">Hill Stations</a></li>
+                  <li><a href="#">Pilgrimage</a></li>
+                  <li><a href="#">Beach</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Holiday Packages<span class="caret"></span></a>
+              </li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Internation Tour<span class="caret"></span></a>
+              </li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Best Time To visit<span class="caret"></span></a>
+              </li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Travel Guide<span class="caret"></span></a>
+              </li>
+
+              <li><a href="#">Blogs</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><i class="fa fa-search"></i></a></li>
+              <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><style>svg{fill:#e84500}</style><path d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z"/></svg></a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+     <!-- ****** Navigation end here ****** -->
+
+     <!-- ****** Banner starts here ****** -->
+     <div class="owl-carousel top owl-theme" id="slider-1">
+        <div class="item">
+          <img src="img/himachal-slider-1.jpg" alt="" width="100%">
+        </div>
+
+        <div class="item">
+          <img src="img/north-east-slider-2.jpg" alt="" width="100%">
+        </div>
+
+        <div class="item">
+          <img src="img/uttarakhand-slider-3.jpg" alt="" width="100%">
+        </div>
+
+        <div class="item">
+          <img src="img/auli-slider-4.jpg" alt="" width="100%">
+        </div>
+
+        <div class="item">
+          <img src="img/kashmir-slider-5.jpg" alt="" width="100%">
+        </div>
+
+        <div class="item">
+          <img src="img/maldives-slider-6.jpg" alt="" width="100%">
+        </div>
+    </div>
+
+    <!-- ****** Banner end here ****** -->
+
+    <!-- ****** Travel access starts here ****** -->
+    <div class="travel container">
+        <h2 class="text-center">Travel Across India With Our Best Customizable Tour Packages</h2>
+        <p class="text-center">Find the best customizable tour packages to the top destinations across India. Choose from the top-selling packages or plan according to your preferences for destinations, experiences, or themes.
+        </p>
+    </div>
+      
+    <div class="container main">
+      <h3 class="text-center">Discover - <span>Best Places for a Vacation</span></h3>
+      <div class="owl-carousel owl-theme tip-top" id="slider-2">
+        <div class="item">
+          <figure>
+            <img src="img/indian_holiday (6).jpg" alt="">
+            <figcaption>Uttarakhand</figcaption>
+          </figure>
+        </div>
+      
+        <div class="item">
+          <figure>
+            <img src="img/indian_holiday (7).jpg" alt="">
+            <figcaption>Andaman</figcaption>
+          </figure>
+        </div>
+      
+      
+        <div class="item">
+          <figure>
+            <img src="img/indian_holiday (8).jpg" alt="">
+            <figcaption>Ladakh</figcaption>
+          </figure>
+        </div>
+      
+      
+        <div class="item">
+          <figure>
+            <img src="img/indian_holiday (9).jpg" alt="">
+            <figcaption>Gujarat</figcaption>
+          </figure>
+        </div>
+      
+      
+        <div class="item">
+          <figure>
+            <img src="img/indian_holiday (10).jpg" alt="">
+            <figcaption>Tamil Naadu</figcaption>
+          </figure>
+        </div>
+      
+      
+        <div class="item">
+          <figure>
+            <img src="img/indian_holiday (11).jpg" alt="">
+            <figcaption>Arunachal</figcaption>
+          </figure>
+        </div>
+      
+      
+        <div class="item">
+          <figure>
+            <img src="img/indian_holiday (12).jpg" alt="">
+            <figcaption>Rajasthan</figcaption>
+          </figure>
+        </div>
+      
+      
+        <div class="item">
+          <figure>
+            <img src="img/indian_holiday (13).jpg" alt="">
+            <figcaption>Himachal</figcaption>
+          </figure>
+        </div>
+      
+        <div class="item">
+          <figure>
+            <img src="img/indian_holiday (14).jpg" alt="">
+            <figcaption>Kerala</figcaption>
+          </figure>
+        </div>
+      
+        <div class="item">
+          <figure>
+            <img src="img/indian_holiday (15).jpg" alt="">
+            <figcaption>Goa</figcaption>
+          </figure>
+        </div>
+      </div>
+      <a href="#">VIEW ALL &ensp; <i class="fa fa-angle-double-right"></i></a>
+    </div>
+   
+    <!-- ****** Travel access end here ****** -->
+
+    <!-- ****** Discover India starts here ****** -->
+
+    <div class="tour">
+      <div class="container main">
+        <h3 class="text-center">Discover India - <span>Tour Packages by Destinations</span></h3>
+        <div class="owl-carousel owl-theme tip-top" id="slider-3">
+          <div class="item">
+            <figure>
+              <img src="img/hawa-mahal-jaipur.jpg" alt="">
+              <figcaption>Rajasthan</figcaption>
+            </figure>
+          </div>
+        
+          <div class="item">
+            <figure>
+              <img src="img/himachal-pradesh-1.jpg" alt="">
+              <figcaption>Himachal</figcaption>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/kerala-3.jpg" alt="">
+              <figcaption>Kerala</figcaption>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/kashmir.jpg" alt="">
+              <figcaption>kashmir</figcaption>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/sikkim.jpg" alt="">
+              <figcaption>Sikkim</figcaption>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (21).jpg" alt="">
+              <figcaption>Uttarakhand</figcaption>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (22).jpg" alt="">
+              <figcaption>Andaman</figcaption>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/ladakh.jpg" alt="">
+              <figcaption>Ladakh</figcaption>
+            </figure>
+          </div>
+        
+          <div class="item">
+            <figure>
+              <img src="img/gujarat-wildlife.jpg" alt="">
+              <figcaption>Gujarat</figcaption>
+            </figure>
+          </div>
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (24).jpg" alt="">
+              <figcaption>Tamil Nadu</figcaption>
+            </figure>
+          </div>
+        </div>
+        <a href="#">VIEW ALL &ensp; <i class="fa fa-angle-double-right"></i></a>
+      </div>
+    </div>
+
+    <!-- ****** Discover India end here ****** -->
+
+    <!-- ****** Cities starts here ****** -->
+    <div class="container main">
+      <h3 class="text-center">Discover India - <span>Cities You Need to Explore</span></h3>
+      <div class="owl-carousel owl-theme tip-top" id="slider-4">
+        <div class="item">
+          <figure>
+            <img src="img/coorg.jpg" alt="">
+            <figcaption>Coorg</figcaption>
+          </figure>
+        </div>
+      
+        <div class="item">
+          <figure>
+            <img src="img/alleppey.jpg" alt="">
+            <figcaption>Alleppey</figcaption>
+          </figure>
+        </div>
+      
+      
+        <div class="item">
+          <figure>
+            <img src="img/auli.jpg" alt="">
+            <figcaption>Auli</figcaption>
+          </figure>
+        </div>
+      
+      
+        <div class="item">
+          <figure>
+            <img src="img/mussoorie.jpg" alt="">
+            <figcaption>Mussoorie</figcaption>
+          </figure>
+        </div>
+      
+      
+        <div class="item">
+          <figure>
+            <img src="img/munnar.jpg" alt="">
+            <figcaption>Munnar</figcaption>
+          </figure>
+        </div>
+      
+      
+        <div class="item">
+          <figure>
+            <img src="img/indian_holiday (32).jpg" alt="">
+            <figcaption>Jaipur</figcaption>
+          </figure>
+        </div>
+      
+      
+        <div class="item">
+          <figure>
+            <img src="img/indian_holiday (33).jpg" alt="">
+            <figcaption>Manali</figcaption>
+          </figure>
+        </div>
+      
+      
+        <div class="item">
+          <figure>
+            <img src="img/indian_holiday (34).jpg" alt="">
+            <figcaption>Mysore</figcaption>
+          </figure>
+        </div>
+      
+        <div class="item">
+          <figure>
+            <img src="img/jaisalmer.jpg" alt="">
+            <figcaption>Jaisalmer</figcaption>
+          </figure>
+        </div>
+      
+        <div class="item">
+          <figure>
+            <img src="img/shimla-2.jpg" alt="">
+            <figcaption>Shimla</figcaption>
+          </figure>
+        </div>
+      </div>
+      <a href="#">VIEW ALL &ensp; <i class="fa fa-angle-double-right"></i></a>
+    </div>
+
+    <!-- ****** Cities end here ****** -->
+
+    <!-- ****** Tour Packages end here ****** -->
+    <div class="tour">
+      <div class="container main">
+        <h3 class="text-center">Tour Packages by City  - <span>Best Vacation Experience</span></h3>
+        <div class="owl-carousel owl-theme tip-top" id="slider-5">
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (37).jpg" alt="">
+              <figcaption>Shimla</figcaption>
+            </figure>
+          </div>
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (38).jpg" alt="">
+              <figcaption>Manali</figcaption>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (39).jpg" alt="">
+              <figcaption>Alleppey</figcaption>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (40).jpg" alt="">
+              <figcaption>Munnar</figcaption>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (41).jpg" alt="">
+              <figcaption>Jaisalmer</figcaption>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (42).jpg" alt="">
+              <figcaption>Jaipur</figcaption>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (43).jpg" alt="">
+              <figcaption>Coorg</figcaption>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (44).jpg" alt="">
+              <figcaption>Mysore</figcaption>
+            </figure>
+          </div>
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (45).jpg" alt="">
+              <figcaption>Auli</figcaption>
+            </figure>
+          </div>
+        </div>
+        <a href="#">VIEW ALL &ensp; <i class="fa fa-angle-double-right"></i></a>
+      </div>
+    </div>
+
+    <!-- ****** Tour Packages end here ****** -->
+
+    <!-- ****** Your Travel Niche starts here ****** -->
+    <div class="container main">
+      <h3 class="text-center">Your Travel Niche - <span>Our Experience Based Tours</span></h3>
+      <div class="owl-carousel owl-theme tip-top" id="slider-6">
+        <div class="item">
+          <figure>
+            <img src="img/indian_holiday (47).jpg" alt="">
+            <i class="fas fa-place-of-worship"></i>
+            <figcaption>Pilgrimage</figcaption>
+          </figure>
+        </div>
+      
+        <div class="item">
+          <figure>
+            <img src="img/indian_holiday (48).jpg" alt="">
+            <i class="fas fa-umbrella-beach"></i>
+            <figcaption>Beaches</figcaption>
+          </figure>
+        </div>
+      
+      
+        <div class="item">
+          <figure>
+            <img src="img/indian_holiday (49).jpg" alt="">
+            <i class="fas fa-paw wil"></i>
+            <figcaption>Wildlife</figcaption>
+          </figure>
+        </div>
+      
+      
+        <div class="item">
+          <figure>
+            <img src="img/indian_holiday (50).jpg" alt="">
+            <i class="fas fa-briefcase"></i>
+            <figcaption>Honermoon</figcaption>
+          </figure>
+        </div>
+      
+      
+        <div class="item">
+          <figure>
+            <img src="img/indian_holiday (51).jpg" alt="">
+            <i class="fas fa-suitcase-rolling"></i>
+            <figcaption>Family Holiday</figcaption>
+          </figure>
+        </div>
+      
+      
+        <div class="item">
+          <figure>
+            <img src="img/indian_holiday (52).jpg" alt="">
+            <i class="fas fa-university"></i>
+            <figcaption>Culture & Heritage</figcaption>
+          </figure>
+        </div>
+    
+      </div>
+      <a href="#">VIEW ALL &ensp; <i class="fa fa-angle-double-right"></i></a>
+    </div>
+
+    <!-- ****** Your Travel Niche end here ****** -->
+
+
+    <!-- ****** Discover the World end here ****** -->
+    <div class="tour world">
+      <div class="container main">
+        <h3 class="text-center">Discover the World  - <span> International Tours from India</span></h3>
+        <div class="owl-carousel owl-theme tip-top change" id="slider-7">
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (53).jpg" alt="">
+              <i class="glyphicon glyphicon-map-marker"></i>
+              <figcaption>Bali</figcaption>
+            </figure>
+          </div>
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (54).jpg" alt="">
+              <i class="glyphicon glyphicon-map-marker"></i>
+              <figcaption>Singapore</figcaption>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (55).jpg" alt="">
+              <i class="glyphicon glyphicon-map-marker"></i>
+              <figcaption>Malaysia</figcaption>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (56).jpg" alt="">
+              <i class="glyphicon glyphicon-map-marker"></i>
+              <figcaption>Thailand</figcaption>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (57).jpg" alt="">
+              <i class="glyphicon glyphicon-map-marker"></i>
+              <figcaption>Indonesia</figcaption>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (58).jpg" alt="">
+              <i class="glyphicon glyphicon-map-marker"></i>
+              <figcaption>Malaysia</figcaption>
+            </figure>
+          </div>
+        </div>
+        <a href="#">VIEW ALL &ensp; <i class="fa fa-angle-double-right"></i></a>
+      </div>
+    </div>
+
+    <!-- ****** Discover the World end here ****** -->
+
+    <!-- ****** Find Your end here ****** -->
+    <div class="find">
+      <div class="container main calender">
+        <h3 class="text-center">Find Your - <span>  Best Time to Visit</span></h3>
+        <ul>
+          <li><a href="#"> <i class="fa fa-calendar">  &ensp;</i>June</a></li>
+          <li><a href="#"> <i class="fa fa-calendar">  &ensp; </i>July</a></li>
+          <li><a href="#"> <i class="fa fa-calendar">  &ensp; </i>August</a></li>
+          <li><a href="#"> <i class="fa fa-calendar">  &ensp; </i>September</a></li>
+          <li><a href="#"> <i class="fa fa-calendar">  &ensp; </i>October</a></li>
+        </ul>
+      </div>
+
+
+    </div>
+  
+    <!-- ****** Find Your end here ****** -->
+
+    <!-- ****** holiday starts here ****** -->
+    <div class="container main holiday">
+      <h3 class="text-center">Best of India - <span> Holidays by Seasons</span></h3>
+
+      <div class="flex ">
+        <div class="flex-images">
+          <figure>
+            <img src="img/winter.jpg" alt="">
+            <figcaption>Winter</figcaption>
+          </figure>
+          <i class="fa fa-snowflake-o fa-2x me-3"></i>
+        </div>
+
+        <div class="flex-images image-bottom">
+          <figure>
+            <img src="img/indian_holiday (62).jpg" alt="">
+            <figcaption>Summer</figcaption>
+          </figure>
+          <i class="fa  fa-sun-o fa-2x me-3"></i>
+        </div>
+
+        <div class="flex-images">
+          <figure>
+            <img src="img/indian_holiday (64).jpg" alt="">
+            <figcaption>Mansoon</figcaption>
+          </figure>
+          <i class="fa fa-umbrella fa-2x me-3"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- ****** Holiday end here ****** -->
+
+    <!-- ******* Get Inspired starts here ******* -->
+    <div class="tour">
+      <div class="container main">
+        <h3 class="text-center">Get Inspired - <span>Your Next Trip with Our Travel Blogs</span></h3>
+        <div class="owl-carousel owl-theme tip-top" id="slider-8">
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (65).jpg" alt="">
+              <p>IHPL Is Now Aligned with WTTC: Safe Travels Post-Pandemic</p>
+            </figure>
+          </div>
+        
+          <div class="item">
+            <figure>
+              <img src="img/shimla-3.jpg" alt="">
+              <p>Best Winter Destinations in North India</p>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (50).jpg" alt="">
+              <p>Best Hotels & Resorts in Goa for honeymoon</p>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (43).jpg" alt="">
+              <p>50 Best Places to Visit in India in Winter in 2023</p>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (26).jpg" alt="">
+              <p>Plan Dubai Expo: A Complete Travel Guide</p>
+            </figure>
+          </div>
+        
+        
+          <div class="item">
+            <figure>
+              <img src="img/indian_holiday (71).jpg" alt="">
+              <p>Top 21 Honeymoon Destinations in India in Winter 2023</p>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ******* Get Inspired end here ******* -->
+
+    <!-- ****** Why starts here ****** -->
+    <div class="container main">
+      <h3 class="text-center">Why - <span>Indian Holiday?</span></h3>
+
+      <div class="row">
+        
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12"  id="unorder">
+          <ul class="flex">
+            <li>
+              <i class="fa fa-trophy fa-2x"></i>
+              <h4>Industry Leader</h4>
+              <p>National Tourism Award Winning Company</p>
+            </li>
+
+            <li>
+              <i class="fa fa-certificate fa-2x" ></i>
+              <h4>Recognized by</h4>
+              <p>Ministry of Tourism, Government of India</p>
+            </li>
+
+            <li>
+              <i class="fa fa-handshake-o fa-2x"></i>
+              <h4>Countless Beneficiaries</h4>
+              <p>One Million satisfied guests for over 33 years</p>
+            </li>
+
+            <li>
+              <i class="fa fa-book fa-2x"></i>
+              <h4>Tailor-Made Tours</h4>
+              <p>Customized tour itineraries the way you want Award Winning Company</p>
+            </li>
+
+            <li>
+              <i class="fas fa-user-friends fa-2x"></i>
+              <h4>Specializationr</h4>
+              <p>We hold expertise in providing the best private guided tours</p>
+            </li>
+
+            <li>
+              <i class="fa fa-clock-o fa-2x"></i>
+              <h4>24*7 Availablity</h4>
+              <p>We are available round the clock to help you in emergency</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 carousel">
+          <div class="owl-carousel owl-theme top-up" id="slider-9">
+            <div class="item">
+              <figure>
+                <iframe width="360" height="230" src="https://www.youtube.com/embed/Me_JuO3CF2I?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <figcaption>Prof Lightstone & Dr Goodman <br>
+                 <small> Country: United Kingdom</small> <br>
+                  Tour - The Maharajas Trail (Customized)</figcaption>
+              </figure>
+            </div>
+
+            <div class="item border-radius">
+              <figure>
+                <iframe width="360" height="230" src="https://www.youtube.com/embed/mrCMvEZwWGI?controls=0&amp;start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <figcaption>Mr. AJ Greenway & Ms. Hannah Morris <br>
+                  <small>Country: United Kingdom</small> <br>
+                  Tour - Ooty Tour with Tamil Nadu</figcaption>
+              </figure>
+            </div>
+
+            <div class="item border-radius">
+              <figure>
+                <iframe width="360" height="230" src="https://www.youtube.com/embed/ib7fQCG_dqU?controls=0&amp;start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <figcaption>Tatiana Sidlik and Javier Vasquez <br>
+                 <small> Country: Argentina and Ecuador</small> <br>
+                  Tour - Orchha Heritage Tour</figcaption>
+              </figure>
+            </div>
+
+            <div class="item border-radius">
+              <figure>
+                <iframe width="360" height="230" src="https://www.youtube.com/embed/wcG1fCQy0oA?controls=0&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <figcaption>Ma. Josefina Martinez x 03 adults <br>
+                  <small>Country: Philippines</small> <br>
+                  Tour - Rajasthan with Varanasi and Mumbai</figcaption>
+              </figure>
+            </div>
+
+            <div class="item border-radius">
+              <figure>
+                <iframe width="360" height="230" src="https://www.youtube.com/embed/ib7fQCG_dqU?controls=0&amp;start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <figcaption>Mr. Rahul Sharma & Mr. Ravi Kesri <br>
+                  <small>Country: India</small> <br>
+                  Tour - Deccan Odyssey Luxury Train Tour</figcaption>
+              </figure>
+            </div>
+
+            <div class="item border-radius">
+              <figure>
+                <iframe width="360" height="230" src="https://www.youtube.com/embed/2DtfEwvqSDE?controls=0&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <figcaption>Mr. Peter Maremaa & Group <br>
+                 <small> Country: Chile</small> <br>
+                  Tour - Magnificent Rajasthan Tour</figcaption>
+              </figure>
+            </div>
+
+            <div class="item border-radius">
+              <figure>
+                <iframe width="360" height="230" src="https://www.youtube.com/embed/s_W37-rqCzg?controls=0&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <figcaption>Dr. Vibha Jaiswal and Family <br>
+                 <small> Country: India</small> <br>
+                  Tour - Exclusive Rajasthan with Taj Tour</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row text">
+        <div class="col-lg-12">
+          <h4>Indian Holiday Pvt. Ltd. - Your Holiday Tour Planner in India & Around the World</h4>
+        <p>Indian Holiday Pvt. Ltd. - Your Holiday Tour Planner in India & Around the World
+          Dominating the landscape of South Asia, India is home to millions of attractions and billions of experiences. Blessed with varied geographical features, India has a vast diversity of hills, plateaus, beaches, backwaters, islands, forests, deserts, and more. Be a part of yoga retreats, go for pilgrimages, or take up Ayurveda therapies or spa sessions. A holiday trip across India is worth... </p>
+        </div>
+      </div>
+    </div>
+    <!-- ****** Why end here ****** -->
+
+    <!-- ****** icons starts here ****** -->
+    <div class="icons flex">
+      <div class="text-left">
+        <h5>Receive Exclusive Offers & Savings</h5>
+        <p>Straight to your inbox by subscribing to our newsletter here.</p>
+      </div>
+
+      <div class="form">
+          <form action="#">
+                <input type="email" data-toggle="modal" data-target="#myModal" placeholder="Enter your email address" class="email" autofocus>
+                <input type="submit" name="SUBSCRIBE" value="SUBSCRIBE" class="submit">
+          </form>
+      </div>
+
+      <div class="right-icons">
+        <ul>
+
+          <li class="follow">
+            FOLLOW US:
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/facebook.png" alt="">
+            </a>
+          </li>
+    
+          <li>
+            <a href="#">
+              <img src="img/twitter.png" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/linkedin.png" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/instagram.png" alt="">
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="img/youtube.png" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ****** icons end here ****** -->
+    
+    <!-- ****** footer navigation starts here ****** -->
+
+    <div class="footer-nav">
+      <div class="footer-nav-inner">
+        
+          <a href="#">Home Us  </a>
+          <a href="#">Contact Us  </a>
+          <a href="#">Our Testimonial  </a>
+          <a href="#">Terms & conditions  </a>
+          <a href="#">Visa  </a>
+          <a href="#">Site Map  </a>
+          <a href="#">Blog  </a>
+          <a href="#">Career </a>
+        
+      </div>
+    </div>
+
+    <!-- ****** footer navigation end here ****** -->
+
+    <!-- ******  Last section starts here ****** -->
+
+    <div class="last-section container-fluid">
+      <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+          <img src="img/holiday.png" alt="" class="display-none">
+          <img src="img/dm.png" alt="" class="display-block display-none">
+        </div>
+
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+          <figure>
+            <img src="img/indian_holiday (79).jpg" alt="" class="display-none">
+            <figcaption>
+              <strong>Indian Holiday Pvt. Ltd. </strong>
+              <p>70, L.G.F, World Trade Centre
+                Barakhamba Lane, Connaught Place,
+                New Delhi - 110001 (India)
+                Phone: +91-11-4242 3100
+                Email: inquiry@indianholiday.com</p>
+           
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center img-left">
+          <img src="img/indian_holiday (3).png" alt="">
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 last-img text-center">
+          <img src="img/indian_holiday (84).jpg" alt="">
+          <figcaption>
+            Recognized by Ministry of Tourism, Government of 
+          </figcaption>
+        </div>
+      </div>
+    </div>
+
+    <!-- ******  Last section end here ****** -->
+
+    <!--  ******* footer starts here ******* -->
+    <footer>
+      <a href="#">Unlock your way to a perfect holiday planning with our experts</a>
+      &emsp;
+      <a href="#" class="trip">Help Me Plan My Trip</a>
+    </footer>
+    
+    <!-- ******* footer starts here ******* -->
+
+    <div class="chat">
+          <img src="img/chat-big1.gif" alt="">
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div>
+          <div class="modal-body">
+              <form class="bootstrap-form">
+                  <div class="form-group">
+                      <h4 class="text-center">Newsletter Subscription</h4>
+                      <p class="text-center">Subscribe to our newsletter nad stay updated</p>
+                      <label for="exampleInputText1"></label>
+                      <input type="text" class="form-control" id="exampleInputText1" placeholder="FIRSTNAME">
+                  </div>
+
+                  <div class="form-group">
+                      <label for="exampleInputText2"></label>
+                      <input type="text" class="form-control" id="exampleInputText2" placeholder="LASTNAME">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputEmail1"></label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="EMAIL">
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox"> I agree to receive your newsletters and accept the data privacy statement.
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-default">SUBCRIBE</button>
+                </form>
+          </div>
+          </div>
+      </div>
+      </div>
+  </div>
+
+    <!-- owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
+
+
